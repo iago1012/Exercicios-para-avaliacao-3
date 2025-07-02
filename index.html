@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Interativo</title>
+</head>
+<body>
+  <h1 id="titulo">Título Original</h1>
+  <p>Parágrafo 1</p>
+  <p>Parágrafo 2</p>
+  <div>Uma div</div>
+  <input type="text" placeholder="Texto aqui">
+
+  <script>
+    let novoTitulo = prompt("Digite um novo título:");
+    document.getElementById("titulo").innerText = novoTitulo;
+  </script>
+</body>
+</html>
